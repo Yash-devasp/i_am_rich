@@ -1,16 +1,27 @@
 # i_am_rich
 
-A new Flutter project.
+This is a basic flutter app created for learning material design.
 
-## Getting Started
+## How the app works?
 
-This project is a starting point for a Flutter application.
+This is just a basic app created just to illustrate how the flutter is used to create apps.
 
-A few resources to get you started if this is your first Flutter project:
+The app is shown below
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+![](images/app.png)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Here it is clear that it is a simple app that incorporates flutter
+
+```dart
+void main() => runApp();
+```
+The runApp thus takes a widget which in turns takes another widget untill the app has been created
+```dart
+MaterialApp(
+    home:Scaffold(),//it is the pallete on which the app is drawn
+);//it provides the basic material design to create a app
+```
+
+The app follows the widget tree
+
+![](images/Screenshot%202020-04-15%20at%202.01.15%20PM.png)
